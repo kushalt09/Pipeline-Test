@@ -22,7 +22,7 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync . s3://dgusahdaius \
+          aws s3 sync . s3://buckethabsjdsadhbk \
             --exclude ".git/*" \
             --exclude ".github/*" \
             --delete
